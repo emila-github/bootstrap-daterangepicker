@@ -114,10 +114,6 @@
                       $('#winPicker').click(function() {
                           console.log('sss');
                           $('#myModal').modal('show');
-                          $('#myModal').on('show.bs.modal', function (e) {
-                              console.log('ttt');
-
-                          }) ;
                           if($('#birthdayWin').data('daterangepicker')) {
                               $('#birthdayWin').data('daterangepicker').remove();
                           }
